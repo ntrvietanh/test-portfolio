@@ -54,3 +54,14 @@ model Experience {
   description String
   order       Int      @default(0)
 }
+
+model Certification {
+  id            String  @id @default(cuid())
+  name          String
+  issuer        String
+  issueDate     String?
+  expiryDate    String?
+  credentialId  String?
+  credentialUrl String?
+  order         Int     @default(0)
+}

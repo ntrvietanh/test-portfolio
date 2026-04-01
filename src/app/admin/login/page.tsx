@@ -85,11 +85,6 @@ export default function LoginPage() {
             </button>
           </form>
 
-          <div className="mt-6 p-4 bg-orange-50 rounded-xl border border-orange-100">
-            <p className="text-xs text-orange-700 font-medium mb-1">Demo credentials:</p>
-            <p className="text-xs text-gray-600">Email: <code className="bg-white px-1 rounded">admin@portfolio.dev</code></p>
-            <p className="text-xs text-gray-600 mt-0.5">Password: <code className="bg-white px-1 rounded">admin123</code></p>
-          </div>
         </div>
 
         <p className="text-center mt-6 text-sm text-gray-400">
